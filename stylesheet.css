@@ -1,0 +1,77 @@
+:root{
+
+--DarkCyan: #3C8067;
+--Cream: #F2EBE3;
+
+--VeryDarkBlue: #1C232B;
+--DarkGrayishBlue: #6C7289;
+--white: #FFFFFF;
+
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Fraunces";
+    src: url("fonts/Fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf") format("truetype");
+}
+
+
+html{
+font-size: 14px;
+font-family: "Montserrat";
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+align-items: center;
+
+background-color: var(--Cream);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--white);
+    border-radius: 8px;
+    max-width: 600px;
+    max-height: 450px;
+}
+
+img{
+    width: 50%;
+    height: 100%;
+    border-radius: 8px 0px 0px 8px;
+}
+
+#TextContent{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    padding: 2rem;
+}
+
+#subhead{
+    color: var(--DarkGrayishBlue);
+    font-weight: 500;
+    letter-spacing: 0.5rem;
+
+    margin-top: 0rem;
+    margin-bottom: 1.5rem;
+}
+
+#heading{
+    color: var(--VeryDarkBlue);
+    font-family: "Fraunces";
+    font-weight: 700;
+
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+}
+
+
