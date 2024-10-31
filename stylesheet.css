@@ -123,12 +123,20 @@ color: var(--white);
 font-size: 1rem;
 font-family: 'Montserrat';
 font-weight: 700;
+
+cursor: pointer;
 }
+
+#AddButton:hover{
+    background-color: var(--VeryDarkBlue);
+}
+
 
 #AddButton img{
     width: 16px;
     height: 16px;
 }
+
 
 @media (width<600px){
     main{
@@ -148,7 +156,6 @@ font-weight: 700;
 
         height: 50%;
         width: 90%;
-        margin-right: 20%;
     }
 
     #Pricing{
@@ -163,5 +170,4 @@ Nächste Aufaben:
 -> Button hoverstate hinzufügen
 -> Vllt nochmal das img im button anschauen, sieht bissche buggy aus 
 
--> Zweite Version ab ner gewissen Pixelbreite einbauen, vielleicht einfach ab da wo der content overflowt bei 600px +/- siehe Web-Beispielkomponente
 */
